@@ -1,0 +1,16 @@
+<svg
+  width="24"
+  height="24"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 24 24"
+>
+  <circle cx="12" cy="12" r="10" fill="none" stroke="#000" strokeWidth="4">
+    <animate
+      attributeName="stroke-dasharray"
+      repeatCount="indefinite"
+      dur="1.5s"
+      keyTimes="0;1"
+      values="0 40 80;80 40 0"
+    ></animate>
+  </circle>
+</svg>

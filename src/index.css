@@ -1,0 +1,98 @@
+/* DM Sans | DM Serif Display */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #1e2e45;
+    --primary-rgb: 30 46 69;
+    --secondary: #9a9162;
+    --secondary-rgb: 154 145 98;
+    --dark: #3a3a38;
+    --dark-rgb: 58 58 56;
+    --black: #1a1a1a;
+    --black-rgb: 26 26 26;
+    --light: #e8e9e1;
+    --light-rgb: 232 233 225;
+    --white: #ffffff;
+    --white-rgb: 255 255 255;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow-x: hidden;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: var(--light);
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.font-title {
+    font-family: "DM Serif Display", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "DM Serif Display", serif;
+}
+
+.breaker {
+    word-wrap: break-word;
+    word-break: break-all;
+    hyphenate-limit-chars: 8 2;
+    hyphens: auto;
+    line-break: strict;
+    overflow-wrap: break-word;
+    white-space: break-spaces;
+    hanging-punctuation: first;
+    line-clamp: 3;
+    text-overflow: ellipsis;
+}
+
+.wrapper {
+    width: 98%;
+    max-width: 1350px;
+    margin: auto;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 15px;
+    }
+}

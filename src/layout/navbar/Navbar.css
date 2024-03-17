@@ -1,0 +1,24 @@
+.mobile-nav-component {
+    clip-path: circle(0% at 100% 0);
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+.mobile-nav-component-open {
+    clip-path: circle(100% at 100% 50%);
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+a[aria-current="page"].active {
+    font-weight: 600;
+}
