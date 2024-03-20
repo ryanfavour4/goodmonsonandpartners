@@ -65,7 +65,7 @@ export default function Navbar() {
                                 <li>
                                     <NavLink
                                         className="border-b p-4 border-secondary block hover:pl-4 hover:border-l-4"
-                                        to="/services"
+                                        to="/about#services"
                                     >
                                         Services
                                     </NavLink>
@@ -78,6 +78,15 @@ export default function Navbar() {
                                     >
                                         Contact Us
                                     </NavLink>
+                                </li>
+
+                                <li>
+                                    <a
+                                        className="border-b p-4 border-secondary block hover:pl-4 hover:border-l-4"
+                                        href="tel:+442081819675"
+                                    >
+                                        Give Us A Call →
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -100,11 +109,15 @@ export default function Navbar() {
                         <li>
                             <NavLink to="/about">About</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/services">Services</NavLink>
                         </li>
+                        */}
                         <li>
                             <NavLink to="/contact">Contact Us</NavLink>
+                        </li>
+                        <li>
+                            <a href="tel:+442081819675">Give Us A Call</a>
                         </li>
                     </nav>
                 </div>

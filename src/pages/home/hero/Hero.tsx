@@ -24,7 +24,7 @@ export default function Hero() {
                         </span>
                     </h1>
 
-                    <LinkButton to="/">Get Started</LinkButton>
+                    <LinkButton to="/contact">Get Started</LinkButton>
                 </div>
 
                 <img

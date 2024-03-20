@@ -1,21 +1,18 @@
 import React from "react";
 import AboutHero from "./about-hero/AboutHero";
+import OurMission from "./our-mission/OurMission";
+import MainCta from "../home/main-cta/MainCta";
 import AboutDesc from "./about-desc/AboutDesc";
-import WeHelp from "./wehelp-you-with/WeHelp";
-import Hellopeople from "./hellopeople/Hellopeople";
-import OurMissiontask from "./ourmission/OurMission";
-import BestAwardcomponent from "./best-award/BestAward";
-import Testimonialscomponent from "./testimonials/Testimonials";
+import AboutServices from "./about-services/AboutServices";
+
 export default function About() {
-    return(
+    return (
         <div>
-        <AboutHero/>
-        <AboutDesc/>
-         <WeHelp/>
-         <OurMissiontask/>
-         <BestAwardcomponent/>
-         <Testimonialscomponent/>
-    </div>
-    )
-    
+            <AboutHero />
+            <AboutDesc />
+            <AboutServices />
+            <MainCta />
+            <OurMission />
+        </div>
+    );
 }

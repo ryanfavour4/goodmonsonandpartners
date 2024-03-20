@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: *
-Sitemap: http://giambronepartnerslawltd.co.uk/sitemap.xml
+Sitemap: http://goodmonsonandpartners.co.uk/sitemap.xml

@@ -17,7 +17,7 @@ export default function AboutDesc() {
                 <div className="w-full md:pl-10">
                     <h3 className="mb-2 md:text-base text-sm">About Us</h3>
                     <h4 className="text-xl md:text-5xl max-w-sm">
-                        Helping to overcome and ease the legal burden
+                        Helping To Overcome And Ease The Legal Burden
                     </h4>
                 </div>
             </div>
@@ -37,7 +37,7 @@ export default function AboutDesc() {
                 </p>
 
                 <br />
-                <LinkButton to="/">See detail</LinkButton>
+                <LinkButton to="/about">See detail</LinkButton>
             </div>
         </div>
     );

@@ -76,7 +76,7 @@ export default function Footer() {
                                 <Link to="/about">About</Link>
                             </li>
                             <li>
-                                <Link to="/services">Services</Link>
+                                <Link to="/about#services">Services</Link>
                             </li>
                             <li>
                                 <Link to="/contact">Contact</Link>
@@ -90,14 +90,14 @@ export default function Footer() {
                         <ul className="flex flex-col gap-2">
                             <li>
                                 <a
-                                    href="mailto:info@goodmonsonandpartners.co.uk"
+                                    href="mailto:contact@goodmonsonandpartners.co.uk"
                                     className="flex gap-2"
                                 >
                                     <span className="w-6 text-lg">
                                         <IoMailOutline />
                                     </span>
                                     <span>
-                                        info@goodmonsonandpartners.co.uk
+                                        contact@goodmonsonandpartners.co.uk
                                     </span>
                                 </a>
                             </li>
