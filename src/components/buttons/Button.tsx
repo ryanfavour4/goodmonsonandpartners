@@ -11,7 +11,7 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
     return (
         <button
-            className={`${className} text-center inline-flex items-center justify-center p-3 rounded gap-2 hover:opacity-80 hover:gap-3 text-dark font-[500] bg-gold hover:bg-gold`}
+            className={`${className} text-center inline-flex items-center justify-center p-3 gap-2 hover:opacity-80 hover:gap-3 text-dark font-[500] bg-gold hover:bg-gold`}
             {...props}
         >
             {children}
