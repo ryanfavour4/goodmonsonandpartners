@@ -83,7 +83,7 @@ export default function Navbar() {
                                 <li>
                                     <a
                                         className="border-b p-4 border-secondary block hover:pl-4 hover:border-l-4"
-                                        href="tel:+442081819675"
+                                        href="tel:+442081850983"
                                     >
                                         Give Us A Call →
                                     </a>
@@ -117,7 +117,7 @@ export default function Navbar() {
                             <NavLink to="/contact">Contact Us</NavLink>
                         </li>
                         <li>
-                            <a href="tel:+442081819675">Give Us A Call</a>
+                            <a href="tel:+442081850983">Give Us A Call</a>
                         </li>
                     </nav>
                 </div>

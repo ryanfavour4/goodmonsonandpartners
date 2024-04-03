@@ -118,7 +118,7 @@ export default function ContactForm() {
             <div className="wrapper flex md:justify-between justify-stretch flex-wrap pb-16 pt-8 gap-4">
                 <div className="flex gap-3 items-center">
                     <BsTelephone className="w-6 text-xl" />
-                    <a href="tel:+442081819675">+44 208 181-9675</a>
+                    <a href="tel:+442081850983">+44 208 185-0983</a>
                 </div>
                 <div className="flex gap-3 items-center">
                     <IoMailOutline className="text-xl" />
@@ -128,10 +128,7 @@ export default function ContactForm() {
                 </div>
                 <div className="flex gap-3 items-center">
                     <IoLocationOutline className="text-xl" />
-                    <a href="#/">
-                        Berkeley Centre, 246-250 Romford Road, London, E7 9HZ,
-                        United Kingdom
-                    </a>
+                    <a href="#/">4 Cam Road, Stratford, London E15 2SN</a>
                 </div>
                 <div className="flex gap-3 items-center">
                     <WiTime8 className="text-xl" />

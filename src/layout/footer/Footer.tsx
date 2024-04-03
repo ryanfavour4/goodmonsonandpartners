@@ -103,13 +103,13 @@ export default function Footer() {
                             </li>
                             <li>
                                 <a
-                                    href="tel:+442081819675"
+                                    href="tel:+442081850983"
                                     className="flex gap-2"
                                 >
                                     <span className="w-6 text-lg">
                                         <BsTelephone />
                                     </span>
-                                    <span>+44 208 181-9675</span>
+                                    <span>+44 208 185-0983</span>
                                 </a>
                             </li>
                             <li>
@@ -123,8 +123,7 @@ export default function Footer() {
                                         <IoLocationOutline />
                                     </span>
                                     <span>
-                                        Berkeley Centre, 246-250 Romford Road,
-                                        London, E7 9HZ, United Kingdom
+                                        4 Cam Road, Stratford, London E15 2SN
                                     </span>
                                 </a>
                             </li>
